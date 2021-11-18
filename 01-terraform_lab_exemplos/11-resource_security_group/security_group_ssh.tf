@@ -5,7 +5,7 @@
 # egress = [ # outbound
 
 resource "aws_security_group" "allow_ssh" {
-  name        = "sg_novo"
+  name        = "sg_novo3"
   description = "Allow SSH inbound traffic"
 
   ingress = [

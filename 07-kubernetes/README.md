@@ -3,7 +3,7 @@
 kubectl get nodes -o wide
 
 # cria um pod com uma imagem docker
-kubectl run didox-nginx --image=nginx:latest  
+kubectl run crafaelcf-nginx --image=nginx:latest  
 
 # Lista o pod e mostra o IP local
 kubectl get pods -o wide 

@@ -30,11 +30,11 @@ resource "aws_subnet" "my_subnet_b" {
 
 resource "aws_subnet" "my_subnet_c" {
   vpc_id            = aws_vpc.my_vpc.id
-  cidr_block        = "172.16.30.0/24"
-  availability_zone = "us-east-1c"
+  cidr_block        = "171.31.0.0/16"
+  availability_zone = "us-east-2a"
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "tf-lab-danilo-subnet_c"
+    Name = "subnet1a-fernandes"
   }
 }
